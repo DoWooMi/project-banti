@@ -1,6 +1,5 @@
 # project-banti
 - semi-project
-- 개발인원 : 5명
 
 ## 프로젝트명
 - BANTI
@@ -16,3 +15,7 @@
 - Front : JSP, HTML/CSS, JS
 - Back : JAVA, JDBC, Servlet
 - API : Daum 우편번호
+
+## 개발인원 및 기여도
+- 개발 인원 : 5명
+- 장바구니, 구매페이지, 마이페이지 구현
