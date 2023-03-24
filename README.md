@@ -1,5 +1,6 @@
 # project-banti
 - semi-project
+- 개발인원 : 5명
 
 ## 프로젝트명
 - BANTI
