@@ -1,0 +1,36 @@
+<%@page import="xyz.itwill.dto.HewonDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%-- 장바구니 목록을 클라이언트에게 전달하는 JSP 문서 --%>
+<%-- => 로그인 사용자만 요청 가능한 JSP 문서 --%>
+
+<%
+	HewonDTO loginHewon = (HewonDTO)session.getAttribute("loginHewon");
+	
+	//비로그인 사용자가 장바구니, 마이쇼핑 누르면 로그인 페이지로 이동
+	if(loginHewon==null){
+		//index.jsp
+		String requestURI = request.getRequestURI();
+		
+		//workgroup=cart&work=cart_list
+		String queryString = request.getQueryString();
+		
+		//로그인하면 이전페이지로 이동
+		if (queryString==null || queryString.equals("")) {
+			session.setAttribute("url", requestURI);
+		} else {
+			session.setAttribute("url", requestURI+"?"+queryString);
+		}
+		
+		out.println("<script type='text/javascript'>");
+		out.println("location.href='"+request.getContextPath()+"/index.jsp?menugroup=login&menu=hewon_login';");
+		out.println("</script>");
+		return;
+	} 
+	
+	
+	
+	
+	
+%>

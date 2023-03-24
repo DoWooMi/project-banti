@@ -1,0 +1,14 @@
+<%@page import="xyz.itwill.dto.HewonDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	HewonDTO loginHewon=(HewonDTO)session.getAttribute("loginHewon");
+
+	//비정상적인 요청인 경우 - 400에러페이지 이동
+	if(loginHewon==null || loginHewon.getH_status()!=2) {
+		out.println("<script type='text/javascript'>");
+		out.println("location.href='"+request.getContextPath()+"/index.jsp?menugroup=error&menu=error_400';");
+		out.println("</script>");
+		return;		
+	}
+%>  

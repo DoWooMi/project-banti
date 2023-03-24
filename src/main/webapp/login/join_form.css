@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+#wrapper_title {
+    text-align: center;
+}
+#wrapper_title {
+    margin: 0px 0;
+    font-size: 1.667em;
+    font-weight: bold;
+}
+#wrapper_title {
+    padding: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+user agent stylesheet
+b {
+    font-weight: bold;
+}
+user agent stylesheet
+b {
+    font-weight: bold;
+}
+user agent stylesheet
+b {
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    font-family: 'Malgun Gothic', dotum, sans-serif;
+}
+:root {
+    --swiper-navigation-size: 44px;
+    --swiper-navigation-color: #ffffff;
+}
+:root {
+    --swiper-theme-color: #C53428;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#fregisterform .form_01 div {
+    margin: 0 0 20px;
+}
+#register_form .register_form_inner {
+    background: #fff;
+}
+.register_form_inner {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+}
+.tbl_frm01 {
+    margin: 0 0 20px;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+#faq_sch [class~=frm_input], [class~=form_01] li input[type=text], #sch_res_detail .sch_wr, [class~=bo_img], #sch_res_detail .frm_input, .bo_info, [class~=form_01] li [class~=half_input], #bo_gall [class~=gall_webzine] [class~=gall_text_href] {
+    width: 100%;
+}

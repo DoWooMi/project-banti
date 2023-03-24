@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+element.style {
+    clear: both;
+}
+#wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+#wrapper {
+    z-index: auto;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    zoom: 1;
+    min-width: auto;
+    background: #fff;
+}
+#wrapper {
+    z-index: 5;
+    position: relative;
+    width: 100%;
+    background: #f6f6f6;
+}
+#hd, #wrapper, #ft {
+    min-width: 1200px;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+
+
+
+#wrapper_title {
+    text-align: center;
+}
+#wrapper_title {
+    margin: 0px 0;
+    font-size: 1.667em;
+    font-weight: bold;
+}
+
+#container [class~=shop-content] {
+    width: 96%;
+    margin: 0 auto;
+}
+#container .shop-content {
+    position: relative;
+    padding: 1px 0;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+
+.mbskin {
+    position: relative;
+    margin: 50px auto 0;
+    width: 360px;
+    text-align: center;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.mbskin .mbskin_box {
+    border: 1px solid #ececec;
+    background: #fff;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+div {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+#container {
+    float: none;
+    width: 100% !important;
+    min-width: 320px;
+    margin: 0 auto;
+}
