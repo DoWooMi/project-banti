@@ -9,9 +9,9 @@
 - http://bant.co.kr/
 
 ## 개발환경
-### IDE : 이클립스
-### Database : Oracle SQL
-### Server : Apache tomcat 9.0
-### Front : JSP, HTML/CSS, JS
-### Back : JAVA, JDBC, Servlet
-### API : Daum 우편번호
+- IDE : 이클립스
+- Database : Oracle SQL
+- Server : Apache tomcat 9.0
+- Front : JSP, HTML/CSS, JS
+- Back : JAVA, JDBC, Servlet
+- API : Daum 우편번호
